@@ -35,18 +35,23 @@ const Userdashboard = () => {
         <div className="intro" id="newtest">
           <img src={teacherImg} alt="" />
           <h2 className="mt-3">New Test</h2>
+          <a href="/userdashboard/Newtest" className='btn btn-dark'>Explore</a>
         </div>
         <div className="intro" id="mytest">
           <img src={performanceImg} alt="" />
           <h2 className="mt-3">My Tests</h2>
+          <a href="/userdashboard/Newtest" className='btn btn-dark'>Explore</a>
         </div>
         <div className="intro" id="Support">
           <img src={readingImg} alt="" />
           <h2 className="mt-3">Support</h2>
+          <a href="" className='btn btn-dark'>Explore</a>
         </div>
         <div className="intro" id="settings">
           <img src={chatBotImg} alt="" />
           <h2 className="mt-3">Settings</h2>
+          <a href="" className='btn btn-dark'>Explore</a>
+
         </div>
       </div>
 

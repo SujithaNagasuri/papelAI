@@ -4,7 +4,9 @@ body {
     font-family: "Nunito", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;;
+    /* background-color: #f4f4f9; */
+    background: linear-gradient(to right,#F9E5E5, white, #F9E5E5);
+    /* background: #F9E5E5; */
     
 }
 .loginform{
@@ -12,6 +14,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+  }
+  .sign-btns{
+    background: #FA255E;
+    color: white;
+    border: none;
   }
 
 .login-form{
@@ -40,10 +47,19 @@ body {
   gap: 1rem;
   
 }
+#roleplayimg{
+  width: 25rem;
+  height: 20rem;
+}
+span{
+  color: #FA255E;
+}
 .intro{
   background: #d3d1d1;
+  /* background: #FA255E; */
+  /* color: white; */
   width: 400px;
-  height: 200px;
+  height: 250px;
   padding: 20px;
   display: flex;
   align-items: center;

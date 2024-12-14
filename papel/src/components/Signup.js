@@ -38,7 +38,7 @@ const Signup = () => {
                 
               <form className="login-form p-4 mt-5" onSubmit={handleSubmit}>
               
-                <h2 className="mb-4 text-center"><i class="fa-solid fa-brain "></i> Signup <i class="fa-solid fa-brain "></i></h2>
+                <h2 className="mb-4 text-center"> Signup </h2>
                 <label for="username">username</label>
                 <input
                   type="text"
@@ -71,9 +71,9 @@ const Signup = () => {
                   value={password}
                   onChange={(e) => changePassword(e.target.value)}
                 />
-                <button className="btn btn-dark sign-btns my-3 w-100">submit</button>
+                <button className="btn  sign-btns my-3 w-100">submit</button>
                 <p>Already have account Login?</p>
-                <Link to="/Login" className="btn btn-dark sign-btns w-100">
+                <Link to="/Login" className="btn  sign-btns w-100">
                   Login
                 </Link>
               </form>
